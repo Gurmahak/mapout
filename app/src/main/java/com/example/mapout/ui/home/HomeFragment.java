@@ -1,5 +1,6 @@
 package com.example.mapout.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,17 +13,37 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.example.mapout.Category1Activity;
 import com.example.mapout.R;
 
 public class HomeFragment extends Fragment {
 
+
+
     private HomeViewModel homeViewModel;
+
+
+
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
+
+        View root = inflater.inflate(R.layout.fragment_home, container, false);
+        final TextView category1 = root.findViewById(R.id.category1_text);
+        category1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(),Category1Activity.class);
+                startActivity(i);
+            }
+        });
+
+
+
+
         homeViewModel =
                 ViewModelProviders.of(this).get(HomeViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_home, container, false);
+
         final TextView textView = root.findViewById(R.id.text_home);
         homeViewModel.getText().observe(this, new Observer<String>() {
             @Override
@@ -32,4 +53,5 @@ public class HomeFragment extends Fragment {
         });
         return root;
     }
+
 }

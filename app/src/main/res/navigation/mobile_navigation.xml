@@ -24,6 +24,6 @@
         tools:layout="@layout/fragment_notifications" />
     <fragment
         android:id="@+id/navigation_chat"
-        android:name="com.example.mapout.ui.chat.NotificationsFragment"
+        android:name="com.example.mapout.ui.chat.ChatFragment"
         android:label="chat" />
 </navigation>
