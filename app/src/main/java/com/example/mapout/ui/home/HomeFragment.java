@@ -1,5 +1,6 @@
 package com.example.mapout.ui.home;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,7 +15,9 @@ import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.mapout.Category1Activity;
+import com.example.mapout.MainActivity;
 import com.example.mapout.R;
+import com.example.mapout.VenueActivity;
 
 public class HomeFragment extends Fragment {
 
@@ -33,7 +36,7 @@ public class HomeFragment extends Fragment {
         category1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getContext(),Category1Activity.class);
+                Intent i = new Intent(getContext(), VenueActivity.class);
                 startActivity(i);
             }
         });
