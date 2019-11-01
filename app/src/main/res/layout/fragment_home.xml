@@ -7,25 +7,25 @@
 
     <TextView
         android:id="@+id/category3.text"
-        android:layout_width="119dp"
-        android:layout_height="35dp"
-        android:text="Category 3"
+        android:layout_width="165dp"
+        android:layout_height="38dp"
+        android:text="Entertainment"
         android:textSize="24sp"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.602"
+        app:layout_constraintHorizontal_bias="0.715"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.56" />
+        app:layout_constraintVertical_bias="0.554" />
 
     <TextView
         android:id="@+id/category2.text"
         android:layout_width="119dp"
         android:layout_height="35dp"
-        android:text="Category 2"
+        android:text="Catering"
         android:textSize="24sp"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.602"
@@ -34,7 +34,8 @@
         app:layout_constraintVertical_bias="0.385" />
 
     <ImageView
-        android:id="@+id/category2.img"
+        android:id="@+id/category2_img"
+        android:src="@drawable/asset_2"
         android:layout_width="75dp"
         android:layout_height="74dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,7 +47,8 @@
         app:srcCompat="?attr/colorPrimary" />
 
     <ImageView
-        android:id="@+id/category3.img"
+        android:id="@+id/category3_img"
+        android:src="@drawable/asset_2"
         android:layout_width="75dp"
         android:layout_height="74dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,10 +70,12 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="helloo" />
 
     <ImageView
         android:id="@+id/category1.img"
+        android:src="@drawable/asset_2"
         android:layout_width="75dp"
         android:layout_height="74dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -80,15 +84,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.2"
-        app:srcCompat="?attr/colorPrimary" />
+         />
 
     <TextView
         android:id="@+id/category1_text"
         android:layout_width="119dp"
         android:layout_height="35dp"
-        android:text="Category 1"
+        android:text="Venues"
         android:textSize="24sp"
-        android:textStyle="bold"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.602"

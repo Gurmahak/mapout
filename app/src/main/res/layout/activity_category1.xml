@@ -10,8 +10,8 @@
         android:id="@+id/item3.body"
         android:layout_width="226dp"
         android:layout_height="40dp"
-        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        android:textSize="10sp"
+        android:text="333 Terminal Avenue"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.767"
@@ -23,7 +23,7 @@
         android:id="@+id/text3"
         android:layout_width="105dp"
         android:layout_height="28dp"
-        android:text="Item 1"
+        android:text="Brix Studio"
         android:textColor="#181616"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -38,8 +38,8 @@
         android:id="@+id/item1.body"
         android:layout_width="226dp"
         android:layout_height="40dp"
-        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        android:textSize="10sp"
+        android:text="211 Columbia Street"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.767"
@@ -63,7 +63,7 @@
         android:id="@+id/item3.text"
         android:layout_width="105dp"
         android:layout_height="28dp"
-        android:text="Item 3"
+        android:text="Penthouse Event"
         android:textColor="#181616"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -102,8 +102,8 @@
         android:id="@+id/item2.body"
         android:layout_width="226dp"
         android:layout_height="40dp"
-        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-        android:textSize="10sp"
+        android:text="330 W Pender Street"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.767"
@@ -113,26 +113,27 @@
 
     <TextView
         android:id="@+id/item2.text"
-        android:layout_width="105dp"
-        android:layout_height="28dp"
-        android:text="Item 2"
+        android:layout_width="155dp"
+        android:layout_height="38dp"
+        android:text="The Permanent"
         android:textColor="#181616"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.445" />
+        app:layout_constraintVertical_bias="0.443" />
 
     <TextView
         android:id="@+id/category1.head"
         android:layout_width="126dp"
         android:layout_height="44dp"
-        android:text="Category 1"
+        android:text="Venues"
+        android:textAppearance="@style/AppTheme"
         android:textColor="#0E0E0E"
-        android:textSize="24sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -140,5 +141,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.094" />
+
+    <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/nav_view"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="?android:attr/windowBackground"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.992"-->
+<!--        app:menu="@menu/bottom_nav_menu" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_host_fragment"-->
+<!--        android:name="androidx.navigation.fragment.NavHostFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:defaultNavHost="true"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/nav_view"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:navGraph="@navigation/mobile_navigation" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

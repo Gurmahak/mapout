@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">mapout</string>
-    <string name="title_home">Logo</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Search</string>
+    <string name="title_notifications">Plan</string>
     <string name="title_chat">Chat</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
