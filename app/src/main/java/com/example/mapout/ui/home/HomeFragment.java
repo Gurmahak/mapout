@@ -1,6 +1,5 @@
 package com.example.mapout.ui.home;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -8,14 +7,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import androidx.annotation.Nullable;
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.example.mapout.Category1Activity;
-import com.example.mapout.MainActivity;
 import com.example.mapout.R;
 import com.example.mapout.VenueActivity;
 
@@ -34,6 +31,23 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
         final TextView category1 = root.findViewById(R.id.category1_text);
         category1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(), VenueActivity.class);
+                startActivity(i);
+            }
+        });
+        final TextView category2 = root.findViewById(R.id.category2_text);
+        category2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getContext(), VenueActivity.class);
+                startActivity(i);
+            }
+        });
+
+        final TextView category3 = root.findViewById(R.id.category3_text);
+        category3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(getContext(), VenueActivity.class);
