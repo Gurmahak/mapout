@@ -127,9 +127,9 @@
 
     <TextView
         android:id="@+id/category1.head"
-        android:layout_width="126dp"
-        android:layout_height="44dp"
-        android:text="Venues"
+        android:layout_width="209dp"
+        android:layout_height="66dp"
+        android:text="Entertainment"
         android:textAppearance="@style/AppTheme"
         android:textColor="#0E0E0E"
         android:textSize="30sp"
@@ -163,8 +163,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-         />
-
-
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

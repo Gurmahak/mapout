@@ -12,8 +12,9 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProviders;
 
 import com.example.mapout.Category1Activity;
+import com.example.mapout.Category2Activity;
+import com.example.mapout.Category3Activity;
 import com.example.mapout.R;
-import com.example.mapout.VenueActivity;
 
 public class HomeFragment extends Fragment {
 
@@ -40,7 +41,7 @@ public class HomeFragment extends Fragment {
         category2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getContext(), VenueActivity.class);
+                Intent i = new Intent(getContext(), Category2Activity.class);
                 startActivity(i);
             }
         });
@@ -49,7 +50,7 @@ public class HomeFragment extends Fragment {
         category3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getContext(), VenueActivity.class);
+                Intent i = new Intent(getContext(), Category3Activity.class);
                 startActivity(i);
             }
         });

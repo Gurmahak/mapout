@@ -47,5 +47,8 @@ dependencies {
     implementation 'com.android.support:multidex:1.0.3'
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
 
+    implementation group: 'com.pubnub', name: 'pubnub-gson', version: '4.29.1'
+
+
 
 }
