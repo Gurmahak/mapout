@@ -37,7 +37,7 @@ public class Plan1Activity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Plan1Activity.this,SaveActivity.class);
+                Intent i = new Intent(Plan1Activity.this, LoginGoogle.class);
                 startActivity(i);
             }
         });
@@ -45,7 +45,6 @@ public class Plan1Activity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.topmenu, menu);
-
         return true;
 
     }
