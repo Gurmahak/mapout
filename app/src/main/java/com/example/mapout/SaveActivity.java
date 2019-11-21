@@ -2,6 +2,7 @@ package com.example.mapout;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
@@ -22,5 +23,11 @@ public class SaveActivity extends AppCompatActivity {
                 startActivity(i);
             }
         });
+    }
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.topmenu, menu);
+
+        return true;
+
     }
 }
