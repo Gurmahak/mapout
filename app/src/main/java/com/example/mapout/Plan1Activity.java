@@ -37,7 +37,7 @@ public class Plan1Activity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Plan1Activity.this, LoginGoogle.class);
+                Intent i = new Intent(Plan1Activity.this, loginGoogle.class);
                 startActivity(i);
             }
         });

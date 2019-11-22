@@ -6,6 +6,8 @@
 
         android:iconTint="@color/cardview_dark_background"
         android:title="profile"
-        app:showAsAction="always" />
+        app:showAsAction="always"
+        android:icon="@drawable/profile"
+        android:layout_marginRight="10dp"/>
 
 </menu>

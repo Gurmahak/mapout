@@ -48,11 +48,11 @@ public class DashboardFragment extends Fragment {
         SearchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                input = (EditText)root.findViewById(R.id.inputSearch);
+                input = root.findViewById(R.id.inputSearch);
                 String Input = input.getText().toString();
 
 
-            };
+            }
         });
 
 
