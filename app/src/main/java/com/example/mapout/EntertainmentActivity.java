@@ -87,7 +87,6 @@ public class EntertainmentActivity extends AppCompatActivity {
                         Toast.makeText(EntertainmentActivity.this, e.toString(), Toast.LENGTH_LONG).show();
                     });
                 }
-                ;
             }
         };
         t.start();

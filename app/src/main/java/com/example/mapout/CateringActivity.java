@@ -87,7 +87,6 @@ public class CateringActivity extends AppCompatActivity {
                         Toast.makeText(CateringActivity.this, e.toString(), Toast.LENGTH_LONG).show();
                     });
                 }
-                ;
             }
         };
         t.start();

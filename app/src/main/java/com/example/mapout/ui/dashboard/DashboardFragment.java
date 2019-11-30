@@ -20,15 +20,14 @@ import com.example.mapout.R;
 
 public class DashboardFragment extends Fragment {
 
-    private DashboardViewModel dashboardViewModel;
+
 
     EditText input;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        dashboardViewModel =
-               ViewModelProviders.of(this).get(DashboardViewModel.class);
+
         View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
         //final TextView textView = root.findViewById(R.id.);
         //final Button btn = root.findViewById(R.id.btn_search);
@@ -48,20 +47,12 @@ public class DashboardFragment extends Fragment {
         SearchBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                input = (EditText)root.findViewById(R.id.inputSearch);
+                input = root.findViewById(R.id.inputSearch);
                 String Input = input.getText().toString();
 
 
-            };
-        });
-
-
-        dashboardViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(@Nullable String s) {
-                //textView.setText(s);
             }
         });
-        return root;
+    return root;
     }
 }
